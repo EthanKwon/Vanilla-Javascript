@@ -1,4 +1,4 @@
-# Vanilla-Javascript
+# :icecream: Vanilla-Javascript
 
 라이브러리 없이 JS를 마스터 하자!
 
