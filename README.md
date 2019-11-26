@@ -15,3 +15,12 @@
 - DOM과 이벤트에 대한 내용 실습
 - HTML 기능은 HTML에서만, CSS기능은 CSS 에서만, JS기능은 JS에서만 사용할 것을 기억하기
 - Color Chnage를 통해 ClassList와 ClassName의 활용법 알기 (add, remove, toggle 기능)
+
+### Momentum Clone Coding (19. 11. 26)
+
+- Momentum 클론 코딩 해보기
+- Date() 함수를 이용한 Clock 기능 구현
+- localStorage를 통한 브라우저에서 사용자 정보 저장하기
+- JS에서 Element 생성하여 TodoList 구현
+- JSON을 통한 Object <-> String 데이터 변환을 통해 TodoList 구현
+- image를 배경화면으로 적용시키기
