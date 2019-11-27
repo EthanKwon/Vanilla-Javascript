@@ -2,7 +2,7 @@
 
 라이브러리 없이 JS를 마스터 하자!
 
-### :tv: 참고 영상 : JS Basics (Youtube - 노마드 코더)
+### :tv: 참고 영상 : JS Basics (Nomad Coders - 노마드 코더)
 ### :date: 공부 기간 : 19. 11. 25 ~ 진행중
 
 ---
@@ -24,3 +24,8 @@
 - JS에서 Element 생성하여 TodoList 구현
 - JSON을 통한 Object <-> String 데이터 변환을 통해 TodoList 구현
 - image를 배경화면으로 적용시키기
+
+### Momentum Clone Coding (19. 11. 27)
+
+- weather API를 이용한 날씨와 위치 가져오기
+- Logout 기능 구현하기
