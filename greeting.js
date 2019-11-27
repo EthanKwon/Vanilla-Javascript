@@ -24,7 +24,7 @@ function handleLogoutFocus() {
 function showLogoutBtn() {
     logoutBtn.classList.add(LOGOUT_CN);
     logoutBtn.addEventListener('click',handleLogoutClick);
-    logoutBtn.addEventListener('onfocus',handleLogoutFocus);
+    logoutBtn.addEventListener('focus',handleLogoutFocus);
 }
 
 function saveName(text) {
