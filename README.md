@@ -29,3 +29,8 @@
 
 - weather API를 이용한 날씨와 위치 가져오기
 - Logout 기능 구현하기
+
+
+### Momentum Clone Coding - CSS (19. 12. 01)
+
+- Momentum의 CSS 설정을 통해 element들의 구조에 변화를 줌
