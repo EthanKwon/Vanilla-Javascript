@@ -3,7 +3,7 @@
 라이브러리 없이 JS를 마스터 하자!
 
 ### :tv: 참고 영상 : JS Basics (Nomad Coders - 노마드 코더)
-### :date: 공부 기간 : 19. 11. 25 ~ 진행중
+### :date: 공부 기간 : 19. 11. 25 ~ 19. 12. 27
 
 ---
 
@@ -30,6 +30,8 @@
 - weather API를 이용한 날씨와 위치 가져오기
 - Logout 기능 구현하기
 
+---
+## 추가 작업
 
 ### Momentum Clone Coding - CSS (19. 12. 01)
 
