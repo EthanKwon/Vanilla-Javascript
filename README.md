@@ -5,6 +5,15 @@
 ### :tv: 참고 영상 : JS Basics (Nomad Coders - 노마드 코더)
 ### :date: 공부 기간 : 19. 11. 25 ~ 19. 12. 27
 
+### 완성된 사이트 : https://ethankwon.github.io/Vanilla-Javascript
+
+### 주요 기능 
+
+- 데이터를 local storage에 저장함
+- name, todo는 local storage에 저장됨
+- login시, 오른쪽 상단에 logout 기능
+- login 후에만 todo 작성 가능
+
 ---
 
 ### Vanilla-Javascript Start (19. 11. 25)
@@ -36,3 +45,11 @@
 ### Momentum Clone Coding - CSS (19. 12. 01)
 
 - Momentum의 CSS 설정을 통해 element들의 구조에 변화를 줌
+
+
+### Responsive & Refactoring (20. 04. 21) 
+
+- Momentum 전반적인 구조 변경
+- 반응형 추가 
+- grid, flex 구조로 변경
+- Todo를 하나로 추가하고, 입력된 Todo를 클릭하면 제거 되도록 변경
