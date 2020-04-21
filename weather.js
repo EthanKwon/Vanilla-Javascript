@@ -8,17 +8,17 @@ function getWeather(lat, lng) {
   fetch(
     `https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lng}&appid=${API_KEY}&units=metric`
   )
-    .then(function(response) {
+    .then(function (response) {
       return response.json();
     })
-    .then(function(json) {
+    .then(function (json) {
       console.log(json);
       console.log(json.weather[0].icon);
       const temperature = json.main.temp;
       const place = json.name;
       const Icon = json.weather[0].icon;
       weatherIcon.src = `https://openweathermap.org/img/wn/${Icon}@2x.png`;
-      weatherInfo.innerText = `${temperature}℃ ${place}`;
+      weatherInfo.innerHTML = `<span>${temperature}℃</span> <span>${place}</span>`;
     });
 }
 function saveCoords(coordsObj) {
@@ -30,7 +30,7 @@ function handleGeoSuccess(position) {
   const longitude = position.coords.longitude;
   const coordsObj = {
     latitude,
-    longitude
+    longitude,
   };
   saveCoords(coordsObj);
   getWeather(latitude, longitude);

@@ -15,15 +15,16 @@
   </head>
   <body>
     <div class="js-loader loader"></div>
-    <div class="js-all-container loading">
-      <div class="js-weather weather">
-        <img class="weatherIcon" />
-        <h3 class="weatherInfo"></h3>
-      </div>
-
-      <div class="js-logout">
-        <h3 class="logout">logout</h3>
-      </div>
+    <div class="js-all-container wrap">
+      <header class="header">
+        <div class="js-weather weather">
+          <img class="weatherIcon" />
+          <h3 class="weatherInfo"></h3>
+        </div>
+        <div class="js-logout">
+          <h3 class="logout">logout</h3>
+        </div>
+      </header>
 
       <section class="main-container">
         <div class="js-clock">
@@ -33,19 +34,21 @@
           <input type="text" placeholder="What's your name?" />
         </form>
         <h4 class="js-greetings greetings"></h4>
-        <form class="js-toDoForm toDoForm">
-          <input type="text" placeholder="Write a Todo" />
-        </form>
       </section>
-      <ul class="js-toDoList toDoList"></ul>
+      <section class="js-todo todo-container">
+        <h4 class="js-todoTitle todoTitle"></h4>
+        <form class="js-toDoForm toDoForm">
+          <input type="text" />
+        </form>
+        <h4 class="js-todoToday todoToday"></h4>
+      </section>
       <footer>© 2019 Ethan Kwon. All rights reserved.</footer>
     </div>
     <script src="clock.js"></script>
-    <script src="todo.js"></script>
     <script src="greeting.js"></script>
+    <script src="todo.js"></script>
     <script src="bg.js"></script>
     <script src="weather.js"></script>
-    <script src="logout.js"></script>
     <script src="loadingPage.js"></script>
   </body>
 </html>
