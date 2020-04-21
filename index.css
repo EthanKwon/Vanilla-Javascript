@@ -100,7 +100,6 @@ h1 {
   font-size: 8.75rem;
   margin: 10px;
   transition: color 0.5s ease-in-out;
-  /* font-family: "S-CoreDream-5Medium"; */
   font-weight: bolder;
 }
 
@@ -157,6 +156,9 @@ h4 {
 .weatherInfo span {
   display: block;
 }
+.weatherInfo span:nth-child(1) {
+  margin-bottom: 0.75rem;
+}
 
 .logout {
   padding: 1.75rem;
@@ -170,24 +172,6 @@ h4 {
   cursor: pointer;
   color: #95a5a6;
   transition: color 0.5s ease-in-out;
-}
-
-@-webkit-keyframes spin {
-  0% {
-    -webkit-transform: rotate(0deg);
-  }
-  100% {
-    -webkit-transform: rotate(360deg);
-  }
-}
-
-@keyframes spin {
-  0% {
-    transform: rotate(0deg);
-  }
-  100% {
-    transform: rotate(360deg);
-  }
 }
 
 .clicked {
@@ -208,6 +192,7 @@ h4 {
 .form > input::placeholder,
 .toDoForm > input::placeholder {
   color: #ecf0f1;
+  text-shadow: 0 0 25px rgba(0, 0, 0, 0.3);
 }
 
 .todoTitle {
@@ -236,15 +221,6 @@ h4 {
   cursor: pointer;
 }
 
-@keyframes fadeIn {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
-}
-
 .bgImage {
   position: absolute;
   top: 0;
@@ -257,4 +233,40 @@ h4 {
 
 .hide {
   display: none;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@media (max-width: 999px) {
+  html {
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 700px) {
+  html {
+    font-size: 9px;
+  }
+}
+
+@media (max-width: 500px) {
+  html {
+    font-size: 7px;
+  }
 }
