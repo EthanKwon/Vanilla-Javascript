@@ -1,13 +1,9 @@
-const title = document.querySelector('#title');
+const loader = document.querySelector(".js-loader");
 
-const CLICKED_CLASS = 'clicked';
+const complete = () => {
+  setTimeout(() => {
+    loader.classList.add("complete");
+  }, 1500);
+};
 
-function handleClick(){
-    title.classList.toggle(CLICKED_CLASS);
-}
-
-function init() {
-    title.addEventListener("click",handleClick);
-}
-
-init();
+window.onload = complete;
