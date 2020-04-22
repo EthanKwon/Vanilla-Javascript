@@ -53,3 +53,7 @@
 - 반응형 추가 
 - grid, flex 구조로 변경
 - Todo를 하나로 추가하고, 입력된 Todo를 클릭하면 제거 되도록 변경
+
+### Preloader (20. 04. 22)
+
+- preloader 기능 추가
